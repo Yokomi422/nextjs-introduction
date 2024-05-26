@@ -1,4 +1,12 @@
+"use client";
+
 import Image from "next/image";
+
+const TEST = process.env.TEST;
+const NEXT_PUBLIC_TEST = process.env.NEXT_PUBLIC_TEST;
+
+console.log("TEST", TEST);
+console.log("NEXT_PUBLIC_TEST", NEXT_PUBLIC_TEST);
 
 export default function Home() {
   return (
