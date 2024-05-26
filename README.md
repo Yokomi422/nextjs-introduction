@@ -2,6 +2,12 @@
 
 自分の備忘録として、next.js の使い方をまとめていきます。
 
+## 目次
+
+1. [next.js setup](#nextjs-setup)
+2. [サーバサイドコンポーネントとクライアントサイドコンポーネント](#サーバサイドコンポーネントとクライアントサイドコンポーネント)
+3. [環境変数の読み込み](#環境変数の読み込み)
+
 ## next.js setup
 
 [こちら](https://nextjs.org/docs/getting-started/installation)を参考に、next.js を Automatic Installation でインストールします。
