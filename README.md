@@ -7,7 +7,9 @@
 1. [next.js setup](#nextjs-setup)
 2. [サーバサイドコンポーネントとクライアントサイドコンポーネント](#サーバサイドコンポーネントとクライアントサイドコンポーネント)
 3. [環境変数の読み込み](#環境変数の読み込み)
-4. [Layout について](#Layoutについて)
+4. [layout について](#layout)
+5. [dynamic routing について](#dynamic-routing)
+6. [API route について](#api-route)
 
 ## next.js setup
 
@@ -144,4 +146,14 @@ NEXT_PUBLIC_TEST=test_public
 - https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables
 - https://zenn.dev/kibe/articles/7c09742400aa66
 
-## Layout について
+## layout
+
+layout.tsx
+global.css
+参考
+
+- https://zenn.dev/sc30gsw/articles/64240c11d7dbf9
+
+## dynamic-routing
+
+## api-route
