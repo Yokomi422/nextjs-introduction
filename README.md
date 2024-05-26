@@ -7,6 +7,7 @@
 1. [next.js setup](#nextjs-setup)
 2. [サーバサイドコンポーネントとクライアントサイドコンポーネント](#サーバサイドコンポーネントとクライアントサイドコンポーネント)
 3. [環境変数の読み込み](#環境変数の読み込み)
+4. [Layout について](#Layoutについて)
 
 ## next.js setup
 
@@ -142,3 +143,5 @@ NEXT_PUBLIC_TEST=test_public
 
 - https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables
 - https://zenn.dev/kibe/articles/7c09742400aa66
+
+## Layout について
