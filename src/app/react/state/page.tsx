@@ -3,35 +3,50 @@ import Document from "@/components/Document";
 const technologies = [
   {
     name: "useState",
-    description:
-      "Reactのフックの一つで、コンポーネント内で状態を管理するために使われます。",
+    description: "Reactのフックの一つで、コンポーネント内で状態を管理するために使われます。",
   },
   {
     name: "next/navigation",
-    description:
-      "Next.jsのカスタムフックで、ルーティングを簡単に実装するために使います。",
+    description: "Next.jsのカスタムフックで、ルーティングを簡単に実装するために使います。",
   },
   {
     name: "react-icons",
-    description:
-      "様々なアイコンをReactコンポーネントとして使用できるライブラリです。今回は、FaArrowLeftアイコンを使用しました。",
+    description: "様々なアイコンをReactコンポーネントとして使用できるライブラリです。今回は、FaArrowLeftアイコンを使用しました。",
   },
   {
     name: "Tailwind CSS",
-    description:
-      "ユーティリティファーストのCSSフレームワークで、迅速にスタイルを適用するために使われます。",
+    description: "ユーティリティファーストのCSSフレームワークで、迅速にスタイルを適用するために使われます。",
+  },
+];
+
+const references = [
+  {
+    title: "React Documentation",
+    url: "https://reactjs.org/docs/getting-started.html",
+  },
+  {
+    title: "Next.js Documentation",
+    url: "https://nextjs.org/docs",
+  },
+  {
+    title: "Tailwind CSS Documentation",
+    url: "https://tailwindcss.com/docs",
+  },
+  {
+    title: "react-icons Documentation",
+    url: "https://react-icons.github.io/react-icons/",
   },
 ];
 
 export default function State() {
   return (
-    <Document title="React State" technologies={technologies}>
+    <Document title="React State" technologies={technologies} references={references}>
       <p>
         Reactのstateについて学びます。stateはReactのコンポーネントの状態を管理するための仕組みです。
       </p>
       <pre className="bg-gray-900 text-white p-4 rounded-md overflow-auto">
         <code>
-          {`import { useState } from 'react';
+{`import { useState } from 'react';
 
 function Counter() {
   const [count, setCount] = useState(0);

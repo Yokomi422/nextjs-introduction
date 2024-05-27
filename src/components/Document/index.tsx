@@ -8,12 +8,14 @@ interface DocumentProps {
   title: string;
   children: ReactNode;
   technologies?: { name: string; description: string }[];
+  references?: { title: string; url: string }[];
 }
 
 export default function Document({
   title,
   children,
   technologies,
+  references,
 }: DocumentProps) {
   const router = useRouter();
 
@@ -40,6 +42,20 @@ export default function Document({
               {technologies.map((tech, index) => (
                 <li key={index}>
                   <strong>{tech.name}</strong>: {tech.description}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+        {references && (
+          <>
+            <h2 className="mt-8 text-lg font-bold">参考資料</h2>
+            <ul className="list-disc list-inside mt-4">
+              {references.map((ref, index) => (
+                <li key={index}>
+                  <a href={ref.url} className="text-blue-500 hover:text-blue-700" target="_blank" rel="noopener noreferrer">
+                    {ref.title}
+                  </a>
                 </li>
               ))}
             </ul>
