@@ -20,7 +20,7 @@ export default function Document({
   const router = useRouter();
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8 flex flex-col items-center">
+    <div className="min-h-screen bg-gray-100 p-8 flex flex-col items-center leading-relaxed">
       <div className="bg-sky-300 p-4 m-12 text-center border border-react-dark-blue rounded-lg w-full max-w-3xl">
         <div className="flex items-center justify-between">
           <button
